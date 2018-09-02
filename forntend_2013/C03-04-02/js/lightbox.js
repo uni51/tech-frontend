@@ -1,3 +1,4 @@
+/*global $*/
 $(function(){
 	// ローディングアニメーションのGIF画像を読み込んでおく
 	var loading_img = new Image();

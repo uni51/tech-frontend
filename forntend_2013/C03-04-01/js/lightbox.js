@@ -1,3 +1,4 @@
+/*global $*/
 $(function(){
 	// ライトボックスを非表示にする
 	$(document).on('click', '#lbClose, #lbBg', function(){
@@ -24,12 +25,12 @@ $(function(){
 
 		// 半透明のレイヤーを表示
 		$('#lbBg').show();
-		ie6Fix();
+		ie6Fix();		
 
 		return false;
 	});
 
-	// 画像を配置する
+	// // 画像を配置する
 	var imgSet = function(img, img_w, img_h){
 		// ウィンドウサイズの取得
 		var win_w = $(window).width();
